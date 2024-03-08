@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition and animation</title>
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxs{
+        height: 50px;
+        width: 50px;
+        /* background-color: transparent; */
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxs img{
+        height: 40px;
+        width: 40px;
+        /* transition: width 1s, height 1s; */
+    }
+  
+    /* .boxs img:hover{
+        width: 50px;
+        height: 50px;
+    } */
+    #box1{
+    border:3px solid palevioletred;
+    /* transition: background-color 1s ,width 1s height 1s; */
+    }
+    #box1 img{
+        height: 25px;
+        width: 25px;
+        background-color: transparent;
+        transition: all 2s;
+    }
+    #box1 img:hover{
+      background-color: palevioletred;
+      width: 40px;
+        height: 40px;
+    }
+    #box2{
+        border:3px solid lightgreen;
+        transition: all 3s;
+    }
+    #box2 img{
+        
+        background-color: transparent;
+        transition: all 2s;
+
+    }
+    #box2 img:hover{
+      background-color: lightgreen;
+      width: 50px;
+        height: 50px;
+    }
+    #box3{
+        border:3px solid lightseagreen;
+        /* transition: background-color 1s ,width 1s height 1s; */
+    }
+    #box3 img{
+       
+        background-color: transparent;
+        transition: all 2s;
+
+    }
+    #box3 img:hover{
+      background-color: lightseagreen;
+      width: 50px;
+        height: 50px;
+    }
+    #box4{
+        border:3px solid lightcoral;
+    }
+    #box4 img{
+        width: 27px;
+        height: 27px;
+        background-color: transparent;
+        transition: all 2s;
+
+    }
+    #box4 img:hover{
+      background-color: lightcoral;
+      width: 40px;
+     height: 40px;
+    }
+</style>
+</head>
+<body>
+    <div class="boxs" id="box1"><img src="61109.png" alt=""></div>
+    <div class="boxs" id="box2"><img src="568148.png" alt=""></div>
+    <div class="boxs" id="box3"><img src="733635.png" alt=""></div>
+    <div class="boxs" id="box4"><img src="1400829.png" alt=""></div>
+    
+</body>
+</html>
